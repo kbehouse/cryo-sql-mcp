@@ -1,6 +1,6 @@
 ## Result
 
-![cryo sql example](img/cryo-sql-ex.gif)
+![cryo sql example](img/cryo-sql-csv.gif)
 
 ## Install
 
