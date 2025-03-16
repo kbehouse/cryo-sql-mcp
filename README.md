@@ -50,7 +50,9 @@ MAC: uv path /User/<user_name>/.local/bin/uv
 
 cusor agent mode: cmd + L -> Agent
 
-prompt example
+## prompt example
+
+prompt ex1
 
 ```
 download logs for latest 10 blocks and filter address='0x4200000000000000000000000000000000000006'
@@ -63,6 +65,21 @@ AI will
 
 - AI know how to generate correct SQL
 - AI know fetching start block -> start block+10
+
+prompt ex2
+
+```
+1. download blocks for latest 5 blocks
+2. check shcema only keep number & hash
+```
+
+prompt ex3
+
+```
+1. download erc20_transfers for latest 100 blocks
+2. check schema &  filter token 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913, lower case it
+3. the address is USDC filter USDC > 1000 * 10^6
+```
 
 ## Acknowledgement
 
