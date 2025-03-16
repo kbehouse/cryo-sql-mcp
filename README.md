@@ -56,6 +56,14 @@ prompt example
 download logs for latest 10 blocks and filter address='0x4200000000000000000000000000000000000006'
 ```
 
+AI will
+
+1. using tool fetching latest block
+2. using tool download logs
+
+- AI know how to generate correct SQL
+- AI know fetching start block -> start block+10
+
 ## Acknowledgement
 
 this project refer from cryo-mcp: https://github.com/z80dev/cryo-mcp/tree/main
