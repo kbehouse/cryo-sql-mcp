@@ -1,3 +1,7 @@
+## Result
+
+![cryo sql example](img/cryo-sql-ex.gif)
+
 ## Install
 
 1. install uv

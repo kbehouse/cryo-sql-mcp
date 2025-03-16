@@ -3,7 +3,7 @@ import os
 import requests
 import subprocess
 import json
-from typing import List, Optional, Dict, Any, Union
+from typing import List, Optional, Dict, Any
 from pathlib import Path
 import argparse
 import sys
@@ -18,13 +18,6 @@ DEFAULT_RPC_URL = "https://mainnet.base.org"
 DEFAULT_DATA_DIR = str(Path.home() / ".cryo-mcp" / "data")
 
 DEFAULT_CRYO_PATH = 'cryo'
-
-
-# @mcp.tool()
-# def add(a: int, b: int) -> int:
-#     """Add two numbers"""
-#     return a + b
-
 
 
 @mcp.tool()
